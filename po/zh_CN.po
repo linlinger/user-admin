@@ -35,11 +35,11 @@ msgstr "更改用户数据需要身份验证"
 
 #: data/mate-user-admin.appdata.xml.in:6
 msgid "MATE Manager"
-msgstr ""
+msgstr "用户管理"
 
 #: data/mate-user-admin.appdata.xml.in:7
 msgid "Managing Linux Local Users and Groups"
-msgstr ""
+msgstr "管理本地用户与组"
 
 #: data/mate-user-admin.appdata.xml.in:9
 msgid ""
@@ -48,7 +48,7 @@ msgid ""
 "language, user password, automatic login. You can view the user's login "
 "record. By working with group-service, groups of users can be managed, such "
 "as adding/removing existing groups and creating/deleting new groups."
-msgstr ""
+msgstr "用户管理是一个图形化管理用户与组的工具。可以添加用户和修改用户信息。更改用户语言"
 
 #: src/main.c:47
 msgid "Get Icon Fail"
@@ -56,7 +56,7 @@ msgstr "获取图标失败"
 
 #: src/main.c:97 src/main.c:110
 msgid "Mate User Manager"
-msgstr ""
+msgstr "用户管理器"
 
 #: src/main.c:185 src/main.c:227
 msgid "open file"
@@ -217,7 +217,7 @@ msgstr "创建用户"
 
 #: src/user-admin.c:595 src/user-group.c:681
 msgid "Username"
-msgstr ""
+msgstr "用户名"
 
 #: src/user-admin.c:608
 msgid "Full Name"
@@ -233,7 +233,7 @@ msgstr "混合密码可以提高安全性"
 
 #: src/user-admin.c:788
 msgid "Now set the password"
-msgstr "现在社设置密码"
+msgstr "现在设置密码"
 
 #: src/user-admin.c:864
 msgid "Create New User"
@@ -293,7 +293,7 @@ msgstr "请输入正确的字符"
 
 #: src/user-face.c:709
 msgid "Use Enter Key to Save Modifications"
-msgstr "使用Enter键保存修改"
+msgstr "按回车键保存修改"
 
 #: src/user-list.c:125
 msgid "User List"
@@ -317,7 +317,7 @@ msgstr "新密码不能与旧密码相同"
 
 #: src/user-share.c:409
 msgid "Try changing some letters and numbers"
-msgstr "加入一些数字和字母"
+msgstr "请加入一些数字和大小写字母"
 
 #: src/user-share.c:411 src/user-share.c:419
 msgid "Try changing the password a bit more"
@@ -361,7 +361,7 @@ msgstr "尝试加入特殊字符"
 
 #: src/user-share.c:433
 msgid "Try to use a mixture of letters, numbers and punctuation"
-msgstr "尝试使用字母、数字和标点符号的混合"
+msgstr "尝试使用字母、数字和标点符号的组合"
 
 #: src/user-share.c:435
 msgid "Try to avoid repeating the same character"
@@ -371,7 +371,7 @@ msgstr "尽量避免重复相同的字符"
 msgid ""
 "Try to avoid repeating the same type of character: you need to mix up "
 "letters, numbers and punctuation."
-msgstr "尽量避免重复相同类型的字符."
+msgstr "尽量避免重复的数字或字母."
 
 #: src/user-share.c:439
 msgid "Try to avoid sequences like 1234 or abcd"
@@ -379,7 +379,7 @@ msgstr "尽量避免像1234或ABCD这样的序列"
 
 #: src/user-share.c:441
 msgid "Password length needs more than 8 characters"
-msgstr "密码超过8个字符"
+msgstr "密码没有超过8个字符"
 
 #: src/user-group.c:163
 msgid "Repeat of group name.Please try another"
@@ -540,11 +540,11 @@ msgstr "%b %e, %Y"
 
 #: src/user-history.c:246
 msgid "Session Ended"
-msgstr "会话结束"
+msgstr "用户注销"
 
 #: src/user-history.c:253
 msgid "Session Started"
-msgstr "会话开始"
+msgstr "用户登录"
 
 #: src/user-history.c:290
 #, c-format
