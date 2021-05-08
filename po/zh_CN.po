@@ -187,7 +187,7 @@ msgstr "您不能删除自己的帐户。"
 
 #: src/user-admin.c:217
 msgid "Whether to remove the user's home directory"
-msgstr "是否移除用户家目录"
+msgstr "是否移除用户目录"
 
 #: src/user-admin.c:313
 msgid "Repeat of user name.Please try another"
@@ -195,7 +195,7 @@ msgstr "用户名重复。请再试一次"
 
 #: src/user-admin.c:317
 msgid "Repeat of user home name.Please try another"
-msgstr "家目录名字重复。请再试一次"
+msgstr "用户目录名字重复。请再试一次"
 
 #: src/user-admin.c:321
 msgid "The username cannot start with a - ."
