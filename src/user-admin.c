@@ -753,6 +753,8 @@ static void SetNewUserPass (GtkWidget *Vbox, UserManager *dialog)
     gtk_grid_attach (GTK_GRID (Table), LabelTitle, 0, 0, 1, 1);
 
     //新建两个单选按钮
+    /**
+    Disable button to force user set password now.
     radio_button = gtk_radio_button_new_with_label (NULL, _("Set up next time"));
     RadioGroup = gtk_radio_button_get_group (GTK_RADIO_BUTTON (radio_button));
     gtk_grid_attach (GTK_GRID (Table), radio_button, 0, 1, 5, 1);
@@ -760,6 +762,7 @@ static void SetNewUserPass (GtkWidget *Vbox, UserManager *dialog)
                      "released",
                       G_CALLBACK (next_login_set_password),
                       dialog);
+    **/
 
     radio_button1 = gtk_radio_button_new_with_label (RadioGroup, _("Now set the password"));
     gtk_grid_attach (GTK_GRID (Table), radio_button1, 0, 2, 5, 1);
