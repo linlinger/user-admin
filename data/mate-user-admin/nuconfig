@@ -2,7 +2,7 @@
 # Default configuration for new users 
 [nudefault]
 #Default language for new users
-nulanguage = en_US.utf8
+nulanguage =zh_CN .utf8
 
 #Default Type for New User, 0 Ordinary User 1 Manage User
 nutype = 0                 
