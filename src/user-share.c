@@ -357,7 +357,7 @@ int GetPassStrength (const char  *password,
                      const char  *username,
                      const char **message)
 {
-    int rv, level, length = 0;
+    int rv, level, length = 1;
     double strength = 0.0;
     void *auxerror;
 
